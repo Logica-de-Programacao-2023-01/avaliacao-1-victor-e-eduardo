@@ -13,6 +13,15 @@ package q3
 //Se M ou N forem iguais ou menores que 0, a função deve retornar um erro.
 
 func DominoPieces(m, n int) (int, error) {
-	// Seu código aqui
+	var dominós int
+	if m, n <= 0 || (m*n) < 2 {
+		return 0, fmt.Errorf("O tamanho do tabuleiro é inválido")
+	} 
+	if m%2 == 0 {
+		return (m*n), nill 
+	} else if n%2 == 0 {
+		return (m*n), nill
+	} else if m%2 != 0 && n%2 != 0 {
+		return (
 	return 0, nil
 }
