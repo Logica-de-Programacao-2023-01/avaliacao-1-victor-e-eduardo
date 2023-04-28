@@ -14,7 +14,6 @@ package q2
 
 func ProblemsSolved(answers [][3]bool) int {
 	var x, soluções, problemas_certeza, y int
-
 	for x = 0; x < len(answers); x++ {
 		problemas_certeza = 0
 		for y = 0; y < 3; y++ {
