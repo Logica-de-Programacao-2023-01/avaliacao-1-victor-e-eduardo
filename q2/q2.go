@@ -11,6 +11,9 @@ package q2
 //indica o contrário.
 //
 //Ajude os amigos a encontrar o número de problemas para os quais eles escreverão uma solução.
+package main
+
+import "fmt"
 
 func ProblemsSolved(answers [][3]bool) int {
 	var x, soluções, problemas_certeza, y int
